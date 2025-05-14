@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="JavaScript">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA 17</title>
+</head>
+<body>
+   <h1>Testando Javascript</h1>
+    <script type="text/javascript">
+     document.write ("<h2> Olá Mundo! Esse é meu primeiro programa JavaScript </h2> <br>");
+    document.write ("<p> eu amo as aulas de construção web </p> ");
+    /*window.alert ("ERROR 404");*/
+    </script>
+    
+<h2 id="subtitulo"></h2>
+
+<div id="resposta"></div>
+
+<script type="text/javascript">
+    document.getElementById("subtitulo").innerHTML = "Esse é meu segundo programa JavaScript";    
+  
+  /*document.getElementById("resposta").innerHTML =
+   window.confirm("Você está gostando do curso?");*/
+
+document.getElementById("resposta").innerHTML = "A idade digitada foi:" +
+window.prompt("qual sua idade?");
+
+</script>
+
+</body>
+</html>
