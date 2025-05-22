@@ -1,0 +1,1 @@
+document.getElementById("Digite").innerHTML = "A idade digitada foi:" + window.prompt("Qual sua idade?")
